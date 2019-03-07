@@ -1,5 +1,5 @@
 from selenium import webdriver
-import time
+
 
 driver = webdriver.Chrome()
 driver.get("https://www.w3schools.com/howto/howto_css_contact_form.asp")
