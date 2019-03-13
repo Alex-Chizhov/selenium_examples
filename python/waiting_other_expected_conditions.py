@@ -10,5 +10,6 @@ wait.until(EC.alert_is_present)
 wait.until(EC.element_located_selection_state_to_be(locator, is_selected))
 wait.until(EC.element_located_to_be_selected(locator))
 wait.until(EC.element_selection_state_to_be(element, is_selected))
+wait.until(EC.text_to_be_present_in_element((By.CLASS_NAME, "quantity"), "Some text in element"))
 # and more in documentation
 # https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html
